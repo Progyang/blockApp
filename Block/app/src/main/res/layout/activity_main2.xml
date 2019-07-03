@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="为你的旅行购买保险"
+                android:textColor="#03A9F4"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/priceText"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="价格(天)(元)"
+                android:textColor="#03A9F4"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="20"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="姓"
+                android:textColor="#03A9F4"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/firstnameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="名"
+                android:textColor="#03A9F4"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/lastnameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="邮箱"
+                android:textColor="#03A9F4"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/E_mailText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="开始日期"
+                android:textColor="#03A9F4"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/startdate"
+                    android:layout_width="290dp"
+                    android:layout_height="match_parent"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/startbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="选择"
+                    android:textColor="#03A9F4"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="结束日期"
+                android:textColor="#03A9F4"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/enddate"
+                    android:layout_width="288dp"
+                    android:layout_height="match_parent"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/endbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="选择"
+                    android:textColor="#03A9F4"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="持续时间（天）"
+                android:textColor="#03A9F4"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/buybutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="购买保险"
+                android:textColor="#03A9F4"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

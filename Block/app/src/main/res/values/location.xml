@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="location">
+        <item>富士山</item>
+        <item>新加坡</item>
+        <item>马尔代夫</item>
+        <item>巴黎</item>
+        <item>夏威夷</item>
+    </string-array>
+</resources>
