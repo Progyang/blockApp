@@ -138,6 +138,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             default:
                 break;
             case R.id.conformButton://确认购买旅行产品按钮
+                String serialno = new String();
+                serialno = getRandomString(10);//重置订单号
+                mSerial.setText(serialno);
                 data = new String[3];
                 data[0]=mLocationSpinner.getSelectedItem().toString();
                 data[1]=mPrice.getText().toString();
